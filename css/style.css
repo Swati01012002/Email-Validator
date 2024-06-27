@@ -26,3 +26,60 @@ ul li{
     padding: 0 13px;
     font-size: 13px;
 }
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul >li >a:hover{
+    color: gray;
+}
+
+main{
+   min-height: 90vh; 
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+}
+
+.container h1{
+    padding: 12px 0;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+}
